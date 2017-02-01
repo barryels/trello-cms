@@ -1,0 +1,19 @@
+{
+  "name": "trello-cms",
+  "version": "1.0.0",
+  "description": "trello-cms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barryels/trello-cms.git"
+  },
+  "author": "Barry Els <barryels@gmail.com> (http://www.barryels.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barryels/trello-cms/issues"
+  },
+  "homepage": "https://github.com/barryels/trello-cms#readme"
+}
