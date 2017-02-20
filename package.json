@@ -4,6 +4,8 @@
   "description": "trello-cms",
   "main": "index.js",
   "scripts": {
+    "build:js": "elm make src/Main.elm --output dist/index.js",
+    "start": "npm run build:js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/barryels/trello-cms/issues"
   },
-  "homepage": "https://github.com/barryels/trello-cms#readme"
+  "homepage": "https://github.com/barryels/trello-cms#readme",
+  "devDependencies": {
+    "elm": "^0.18.0"
+  }
 }

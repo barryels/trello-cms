@@ -1,0 +1,15 @@
+# System Files
+.DS_Store
+.Thumb
+
+# Log files
+*.log
+
+# Libraries
+node_modules
+
+# App
+/dist/*
+!/dist/.gitkeep
+
+/elm-stuff
